@@ -30,6 +30,19 @@ section {
     padding: 20px;
 }
 
+.gallery {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
 footer {
     background-color: #222;
     color: white;
